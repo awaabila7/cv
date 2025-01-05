@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Nadzwa Salsabilah</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans leading-relaxed">
+
+  <!-- Header Section -->
+  <header class="bg-purple-600 text-white">
+    <div class="container mx-auto p-6 flex justify-between items-center">
+      <div class="flex items-center space-x-4">
+        <img src="../asset/profile.jpg" alt="Profile Picture" class="w-20 h-20 rounded-full object-cover">
+        <h1 class="text-3xl font-bold">Nadzwa Salsabilah Syahli</h1>
+      </div>
+      <!-- Hamburger Icon -->
+      <div class="block lg:hidden">
+        <button id="hamburger" class="text-white focus:outline-none">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+      <!-- Navigation Menu (Hidden on mobile) -->
+      <nav id="nav-menu" class="hidden lg:flex space-x-4">
+        <a href="aboutme.html" class="hover:text-gray-300 transition">About Me</a>
+        <a href="education.html" class="hover:text-gray-300 transition">Education</a>
+        <a href="skills.html" class="hover:text-gray-300 transition">Skills</a>
+        <a href="experience.html" class="hover:text-gray-300 transition">Experience</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Menu (Initially hidden) -->
+  <div id="mobile-menu" class="fixed inset-0 bg-purple-600 bg-opacity-90 z-50 hidden">
+    <div class="flex justify-end p-6">
+      <button id="close-menu" class="text-white text-3xl">&times;</button>
+    </div>
+    <!-- Align text to the left and inline -->
+    <nav class="flex flex-col items-start space-y-4 pl-6">
+      <a href="aboutme.html" class="text-white text-2xl hover:text-gray-300 transition">About Me</a>
+      <a href="education.html" class="text-white text-2xl hover:text-gray-300 transition">Education</a>
+      <a href="skills.html" class="text-white text-2xl hover:text-gray-300 transition">Skills</a>
+      <a href="experience.html" class="text-white text-2xl hover:text-gray-300 transition">Experience</a>
+    </nav>
+  </div>
+
+
+  <!-- About Me Section -->
+  <div class="p-6">
+    <h2 class="text-2xl font-semibold border-b border-gray-300 pb-2">About Me</h2>
+    <p class="mt-4 text-gray-700">Nadzwa Salsabilah Syahli, Mahasiswi semester tiga Areta Informatics College, memiliki beberapa 
+      pengalaman kerja di perusahaan yang ada di tangerang, dan minat yang besar dalam pembelajaran dan pengembangan web
+    </p>
+  </div>
+
+  <!-- Education Section -->
+  <section id="education" class="p-6 bg-gray-50">
+    <h2 class="text-2xl font-semibold border-b border-gray-300 pb-2">Education</h2>
+    <ul class="mt-4 space-y-4">
+      <li>
+        <h3 class="text-xl font-semibold">Teknik Informatika</h3>
+        <p class="text-sm text-gray-600">Areta Informatics College | 2023 - selesai</p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="p-6">
+    <h2 class="text-2xl font-semibold border-b border-gray-300 pb-2">Skills</h2>
+    <div class="mt-4 flex flex-wrap gap-2">
+      <span class="px-4 py-2 bg-purple-400 text-gray-700 rounded-lg transition transform hover:scale-110 hover:bg-blue-200">HTML</span>
+      <span class="px-4 py-2 bg-purple-400 text-gray-700 rounded-lg transition transform hover:scale-110 hover:bg-blue-200">CSS</span>
+      <span class="px-4 py-2 bg-purple-400 text-gray-700 rounded-lg transition transform hover:scale-110 hover:bg-blue-200">SketchBook</span>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="p-6 bg-gray-50">
+    <h2 class="text-2xl font-semibold border-b border-gray-300 pb-2">Experience</h2>
+    <ul class="mt-4 space-y-4">
+      <li>
+        <h3 class="text-xl font-semibold">Quality Control</h3>
+        <p class="text-sm text-gray-600">Sanken | Jun 2020 - Sep 2020</p>
+        <p class="mt-2 text-gray-700">Merapihkan laporan dan menarik laporan dari setiap gedung</p>
+      </li>
+  </section>
+
+  <!-- Social Media Section -->
+  <section id="Social Media" class="p-6">        
+    <h4 class="text-2xl font-semibold border-b border-gray-300 pb-2">Social Media</h4>
+    <ul class="mt-4 space-y-4">
+    <div class="flex flex-col sm:flex-row sm:space-x-4 space-y-4 sm:space-y-0 sm:justify-start pl-6">
+      <a href="https://github.com/apakelah" target="_blank" class="flex items-center text-black text-xl hover:text-gray-600 transition">
+        <img src="../asset/icons8-github-128.png" alt="GitHub" class="w-6 h-6 mr-2">GitHub
+      </a>
+      <a href="https://youtube.com/@hanyamahasiswa-x5j?si=AVMTj8FsuQQZ66sd" target="_blank" class="flex items-center text-black text-xl hover:text-gray-600 transition">
+        <img src="../asset/icons8-youtube-128.png" alt="YouTube" class="w-6 h-6 mr-2">YouTube
+      </a>
+      <a href="https://www.instagram.com/nadzsalsa02/profilecard/?igsh=MTdwOTFsaDU1NHpsbg==" target="_blank" class="flex items-center text-black text-xl hover:text-gray-600 transition">
+        <img src="../asset/icons8-instagram-logo-128.png" alt="Instagram" class="w-6 h-6 mr-2">Instagram
+      </a>
+      <a href="https://www.linkedin.com/in/nadzwa-salsabillah-2a2a6527a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="flex items-center text-black text-xl hover:text-gray-600 transition">
+        <img src="../asset/icons8-linkedin-128.png" alt="LinkedIn" class="w-6 h-6 mr-2">LinkedIn
+      </a>
+    </div>
+  </ul>
+  </section>
+
+
+  <!-- WhatsApp Floating Button -->
+  <div class="fixed bottom-4 right-4 z-50">
+    <a href="https://wa.me/6288212293822" target="_blank" class="bg-green-400 hover:bg-green-600 px-2 py-2 text-white font-bold rounded-full flex items-center active:scale-90 hover:scale-95 transition transform duration-300 ease-in-out">
+      <img src="../asset/whatsapp.png" alt="Ikon WhatsApp" class="w-16 h-16">
+    </a>
+  </div>
+
+  <!-- Footer Section -->
+  <footer class="bg-purple-600 text-white py-6">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2025 nadzwa salsabilah | tailwindcss</p>
+  </footer>
+  
+  <script>
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        target.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+
+    // Hamburger menu toggle
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const closeMenu = document.getElementById('close-menu');
+
+    hamburger.addEventListener('click', () => {
+      mobileMenu.classList.remove('hidden');
+    });
+
+    closeMenu.addEventListener('click', () => {
+      mobileMenu.classList.add('hidden');
+    });
+  </script>
+</body>
+</html>
+
+

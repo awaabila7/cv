@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom Animation */
+    @keyframes hover-scale {
+      0% {
+        transform: scale(1);
+      }
+      100% {
+        transform: scale(1.1);
+      }
+    }
+
+    .skill-box:hover {
+      animation: hover-scale 0.3s ease-in-out forwards;
+    }
+  </style>
+</head>
+<body class="bg-purple-200 text-gray-800">
+
+  <!-- Full Screen Container -->
+  <div class="min-h-screen flex items-start justify-center px-8 py-8">
+    <div class="bg-white shadow-lg rounded-lg p-8 w-full max-w-4xl">
+      
+      <!-- Header -->
+      <h1 class="text-3xl font-bold text-gray-900 text-center">My Skills</h1>
+      <!-- Skills Grid -->
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-8">
+        
+        <!-- Skill 1: HTML -->
+        <div class="skill-box p-6 bg-blue-500 text-black rounded-lg shadow-lg hover:shadow-2xl transition duration-300 ease-in-out">
+          <div class="flex justify-center mb-4">
+            <img src="../asset/icons8-html-logo-144.png" alt="HTML" class="w-16 h-16" />
+          </div>
+          <h3 class="text-xl font-semibold text-center">HTML</h3>
+        </div>
+
+        <!-- Skill 2: CSS -->
+        <div class="skill-box p-6 bg-blue-400 text-black rounded-lg shadow-lg hover:shadow-2xl transition duration-300 ease-in-out">
+          <div class="flex justify-center mb-4">
+            <img src="../asset/icons8-css-144.png" alt="CSS" class="w-16 h-16" />
+          </div>
+          <h3 class="text-xl font-semibold text-center">CSS</h3>
+        </div>
+
+        <!-- Skill 3: JavaScript -->
+        <div class="skill-box p-6 bg-orange-500 text-black rounded-lg shadow-lg hover:shadow-2xl transition duration-300 ease-in-out">
+          <div class="flex justify-center mb-4">
+            <img src="../asset/sketchbook-logo.png" alt="SketchBook" class="w-16 h-16" />
+          </div>
+          <h3 class="text-xl font-semibold text-center">SketchBook</h3>
+        </div>
+
+        <!-- Skill 4: React -->
+        <div class="skill-box p-6 bg-white text-black rounded-lg shadow-lg hover:shadow-2xl transition duration-300 ease-in-out">
+          <div class="flex justify-center mb-4">
+            <img src="../asset/capccut.jpg" alt="Capcut" class="w-16 h-16" />
+          </div>
+          <h3 class="text-xl font-semibold text-center">Capcut</h3>
+        </div>
+
+        <!-- Skill 5: Git -->
+        <div class="skill-box p-6 bg-orange-500 text-black rounded-lg shadow-lg hover:shadow-2xl transition duration-300 ease-in-out">
+          <div class="flex justify-center mb-4">
+            <img src="../asset/Git-Icon-1788C.png" alt="Git" class="w-16 h-16" />
+          </div>
+          <h3 class="text-xl font-semibold text-center">Git</h3>
+        </div>
+
+        <!-- Skill 6: Tailwind CSS -->
+        <div class="skill-box p-6 bg-slate-100 text-black rounded-lg shadow-lg hover:shadow-2xl transition duration-300 ease-in-out">
+          <div class="flex justify-center mb-4">
+            <img src="../asset/tailwind css.png" alt="Tailwind CSS" class="w-16 h-16" />
+          </div>
+          <h3 class="text-xl font-semibold text-center">Tailwind CSS</h3>
+        </div>
+        
+        <!-- Skill 7: Figma -->
+        <div class="skill-box p-6 bg-slate-100 text-black rounded-lg shadow-lg hover:shadow-2xl transition duration-300 ease-in-out">
+            <div class="flex justify-center mb-4">
+              <img src="../asset/Figma-logo.svg.png" alt="Figma" class="w-16 h-16" />
+            </div>
+            <h3 class="text-xl font-semibold text-center">Figma</h3>
+          </div>
+
+        <!-- Skill 8: MIKROTIK -->
+        <div class="skill-box p-6 bg-slate-100 text-black rounded-lg shadow-lg hover:shadow-2xl transition duration-300 ease-in-out">
+            <div class="flex justify-center mb-4">
+              <img src="../asset/mikrotik.png" alt="Mikrotik" class="w-16 h-16" />
+            </div>
+            <h3 class="text-xl font-semibold text-center">Mikrotik</h3>
+          </div>
+        
+        <!-- Skill 9: UKIT -->
+        <div class="skill-box p-6 bg-blue-400 text-black rounded-lg shadow-lg hover:shadow-2xl transition duration-300 ease-in-out">
+            <div class="flex justify-center mb-4">
+              <img src="../asset/ukit.png" alt="UKIT" class="w-16 h-16" />
+            </div>
+            <h3 class="text-xl font-semibold text-center">UKIT</h3>
+          </div>
+        
+       <!-- Skill 10: SCRATCH -->
+       <div class="skill-box p-6 bg-orange-400 text-black rounded-lg shadow-lg hover:shadow-2xl transition duration-300 ease-in-out">
+        <div class="flex justify-center mb-4">
+          <img src="../asset/scratch.png" alt="Scratch" class="w-16 h-16" />
+        </div>
+        <h3 class="text-xl font-semibold text-center">Scratch</h3>
+      </div> 
+
+      <!-- Skill 11: PowerPoint -->
+      <div class="skill-box p-6 bg-orange-700 text-black rounded-lg shadow-lg hover:shadow-2xl transition duration-300 ease-in-out">
+        <div class="flex justify-center mb-4">
+          <img src="../asset/ppt.jpg" alt="PowerPoint" class="w-16 h-16" />
+        </div>
+        <h3 class="text-xl font-semibold text-center">PowerPoint</h3>
+      </div> 
+
+      <!-- Skill 12: Microsoft Word -->
+      <div class="skill-box p-6 bg-blue-900 text-black rounded-lg shadow-lg hover:shadow-2xl transition duration-300 ease-in-out">
+        <div class="flex justify-center mb-4">
+          <img src="../asset/Microsoft_Office_Word.png" alt="Microsoft Word" class="w-16 h-16" />
+        </div>
+        <h3 class="text-xl font-semibold text-center">Microsoft Word</h3>
+      </div> 
+
+        
+
+
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
