@@ -1,0 +1,16 @@
+Tahapan Push github
+1. Login ke github
+2. Buat new repository dengan nama latihan_web
+3. Tahap selanjutnya kita coba untuk memasukan source code website ke github
+4. Masuk ke terminal dengan cara klik view -> pilih terminal
+5. git init (untuk inisiasi lokasi repo)
+6. git remote add origin masukan alamat link repo kalian
+7. git add .
+8. git commit -m "masukan komentar"
+9. git config --global user.name "masukan username github" 
+10. git config --global user.email "hanyamahasiswa604@gmail.com" 
+11. git branch -M main (merubah cabang master ke main)
+12. git push -u origin main (memasukan source code website ke github)
+13. Tunggu sampai 100% done
+14. Check di github, pastikan sudah berhasil masuk source code website
+13. git remote remove origin
