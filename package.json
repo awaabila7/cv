@@ -1,6 +1,12 @@
 {
-  "devDependencies": {
-    "tailwindcss": "^3.4.16",
-    "tailwindcss-motion": "^1.0.1"
-  }
+  "name": "myapp",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css"
+  },
+"devDependencies": {
+  "autoprefixer": "^10.x.x",
+  "postcss": "^8.x.x",
+  "tailwindcss": "^3.4.17"
+}
 }
